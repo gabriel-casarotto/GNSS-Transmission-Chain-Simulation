@@ -28,7 +28,7 @@ The simulation includes:
 - Signal demodulation and symbol detection
 - Performance evaluation through **symbol error rate (SER)**.
 
-The system is implemented in Python using a baseband simulation framework. :contentReference[oaicite:0]{index=0}
+The system is implemented in Python using a baseband simulation framework.
 
 ## Transmitted Data
 
@@ -39,7 +39,7 @@ The transmitted message contains simulated GNSS parameters:
 - Altitude
 - Unix timestamp
 
-Each parameter is converted to integers and encoded as binary vectors before modulation. :contentReference[oaicite:1]{index=1}
+Each parameter is converted to integers and encoded as binary vectors before modulation.
 
 ## Modulation Schemes
 
@@ -66,7 +66,7 @@ The received signal is modeled as:
 
 y(t) = x(t) + n(t)
 
-where the noise follows a Gaussian distribution. :contentReference[oaicite:2]{index=2}
+where the noise follows a Gaussian distribution.
 
 The simulation evaluates performance for different signal-to-noise ratios (SNR).
 
@@ -74,7 +74,7 @@ The simulation evaluates performance for different signal-to-noise ratios (SNR).
 
 To reproduce a realistic GNSS scenario, a Doppler frequency shift is introduced due to the relative motion between satellite and receiver.
 
-This results in a **phase rotation in the complex baseband signal**, which affects constellation diagrams and detection performance. :contentReference[oaicite:3]{index=3}
+This results in a **phase rotation in the complex baseband signal**, which affects constellation diagrams and detection performance.
 
 ## Receiver Architecture
 
