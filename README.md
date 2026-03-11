@@ -103,7 +103,9 @@ The project also studies:
 
 ## Repository Structure
 code.py # Python implementation of the GNSS transmission chain
+
 rapport.pdf # Project report
+
 README.md
 
 ## Tools and Libraries
